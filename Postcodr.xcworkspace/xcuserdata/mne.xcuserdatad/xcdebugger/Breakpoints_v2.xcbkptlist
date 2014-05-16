@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostcodrTests/PostcodrTests.m"
+            timestampString = "421759817.258286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-testGeoCoderGeneric"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[PostcodrTests testGeoCoderFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421756749.428921"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "386">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[PostcodrTests testGeoCoderFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421756749.429397"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[PostcodrTests testGeoCoderFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421756749.430741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "950">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[PostcodrTests testGeoCoderFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421756749.431102"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1270">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[PostcodrTests testGeoCoderFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421756749.431416"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostcodrTests/PostcodrTests.m"
+            timestampString = "421759817.258286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-testGeoCoderPostcodeFromLocation"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostcodrTests/PostcodrTests.m"
+            timestampString = "421759817.258286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-testGeoCoderPostcodeFromLocation"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759332.934614"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "386">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759332.935012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759332.935547"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1238">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759332.935963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1946">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759332.936266"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2002">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostcodrTests/PostcodrTests.m"
+            timestampString = "421759817.258286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-testGeoCoderPostcodeFromLocation"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759477.44839"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759477.448809"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1534">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759477.449172"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1622">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759477.449506"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1950">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[PostcodrTests testGeoCoderPostcodeFromLocation]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759477.449814"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1988">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostcodrTests/PostcodrTests.m"
+            timestampString = "421759817.258286"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-testGeoCoderPostcodeFromLocation_NEGATIVE"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PostcodrTests testGeoCoderPostcodeFromLocationNEGATIVE]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759576.323159"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "78">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PostcodrTests testGeoCoderPostcodeFromLocationNEGATIVE]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759576.323573"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "598">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PostcodrTests testGeoCoderPostcodeFromLocationNEGATIVE]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759576.323953"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1898">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PostcodrTests testGeoCoderPostcodeFromLocationNEGATIVE]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759576.324278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "2004">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PostcodrTests testGeoCoderPostcodeFromLocationNEGATIVE]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421759576.324596"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "2032">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostcodrTests/PostcodrTests.m"
+            timestampString = "421760722.72377"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-testGeoCoderLocationFromAddress"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostcodrTests/PostcodrTests.m"
+            timestampString = "421760844.958806"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "-testGeoCoderLocationFromAddress_NEGATIVE"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PostcodrTests testGeoCoderLocationFromAddress_NEGATIVE]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421760897.948075"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PostcodrTests testGeoCoderLocationFromAddress_NEGATIVE]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421760897.948572"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "643">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PostcodrTests testGeoCoderLocationFromAddress_NEGATIVE]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421760897.948897"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "1620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostcodrTests/PostcodrTests.m"
+            timestampString = "421763464.158502"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-testGeoCoderLocationFromAddress"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[PostcodrTests testGeoCoderLocationFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421763471.58972"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "1088">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[PostcodrTests testGeoCoderLocationFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421763471.590151"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "1582">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[PostcodrTests testGeoCoderLocationFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421763471.590509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "2036">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[PostcodrTests testGeoCoderLocationFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421763471.590826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "2788">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__48-[PostcodrTests testGeoCoderLocationFromAddress]_block_invoke"
+                  moduleName = "PostcodrTests"
+                  urlString = "file:///Volumes/HDD/Projects/Postcodr/Postcodr/PostcodrTests/PostcodrTests.m"
+                  timestampString = "421763471.591165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "2840">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Postcodr/PDHistoryViewController.m"
+            timestampString = "421860785.704343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-listHistoryItems"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Postcodr/PDViewController.m"
+            timestampString = "421866535.117984"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "-showTutotialOverlay"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Postcodr/PDAppDelegate.m"
+            timestampString = "421860785.704343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-playSoundWithFile:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

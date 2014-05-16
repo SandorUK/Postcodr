@@ -1,0 +1,10 @@
+PODS:
+  - ALAlertBanner (0.3.1)
+
+DEPENDENCIES:
+  - ALAlertBanner (~> 0.3.1)
+
+SPEC CHECKSUMS:
+  ALAlertBanner: 16235298226059cd876a9de0a5d7f9bac6a79459
+
+COCOAPODS: 0.32.1

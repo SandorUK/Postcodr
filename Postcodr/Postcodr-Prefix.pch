@@ -1,0 +1,31 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#define kPostalCode         @"postalCode"
+#define kLocation           @"location"
+#define kLocationName       @"locationName"
+#define kLatitude           @"latitude"
+#define kLongitude          @"longitude"
+#define kUKISOCountryCode   @"GB"
+#define kGlobalFontName     @"DINEngschriftStd"
+#define kUKPostcodesURL     @"http://uk-postcodes.com/latlng/%f,%f.json"
+#define kFirstTimeLaunch    @"IsVirginApp"
+#define kRestrictionPeriod  3600
+#define colorRAL3002      [UIColor colorWithRed:162.0f/255.0f green:35.0/255.0f blue:26.0/255.0f alpha:1.0f]
+#define colorRAL3001      [UIColor colorWithRed:165.0f/255.0f green:32.0/255.0f blue:25.0/255.0f alpha:1.0f]
+#define colorSpecialYellow [UIColor colorWithRed:253.0f/255.0f green:243.0f/255.0f blue:174.0f/255.0f alpha:1.0f]
+#define colorREDSelect [UIColor colorWithRed:236.0f/255.0f green:115.0f/255.0f blue:60.0f/255.0f alpha:1.0f]
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4AA004C48A44E098211E80 /* Pods-Postcodr-ALAlertBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B10CA0E32E2C452AA8E506B1 /* Pods-Postcodr-ALAlertBanner-dummy.m */; };
+		1E0F530D7041484FA059A9FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F18058D41E419E80914016 /* Foundation.framework */; };
+		307A53FA63D64D128DBF6F5C /* libPods-Postcodr-ALAlertBanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A65FA88549E43E280795217 /* libPods-Postcodr-ALAlertBanner.a */; };
+		31CE3C8F21CF469281EFF966 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F6A4C030B4600A6A44012 /* QuartzCore.framework */; };
+		599E87D6DEC34590A200E56C /* ALAlertBannerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9BBF2A228544D09E75F542 /* ALAlertBannerManager.h */; };
+		7E048FB8E03943C0BA8D3E52 /* Pods-Postcodr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBCB122BC424485967AEB2C /* Pods-Postcodr-dummy.m */; };
+		8A16E5B4BDBA4D0F82B55DA8 /* ALAlertBanner+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F971E766B147B79C329FF2 /* ALAlertBanner+Private.h */; };
+		8BCFD8C8E2084B13B3AD2009 /* ALAlertBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A3FF6517E344F4A164AD07 /* ALAlertBanner.h */; };
+		A69FC213EDD84C0FB2BEF71D /* ALAlertBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F962F4A1F4D98BB4D3E61 /* ALAlertBanner.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D78587C858584829B64AB7F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F18058D41E419E80914016 /* Foundation.framework */; };
+		F12AA96360E84A22BECDE734 /* ALAlertBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7C1A8340F4AE593496C0A /* ALAlertBannerManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6829DA67E3E642418AC5A926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7FCE1017952440887A8BE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CD6BD5C862447A58EA6702B;
+			remoteInfo = "Pods-Postcodr-ALAlertBanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106CB81D1DFC41ED95672943 /* bannerSuccess.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bannerSuccess.png; path = ALAlertBanner/Images/bannerSuccess.png; sourceTree = "<group>"; };
+		24F971E766B147B79C329FF2 /* ALAlertBanner+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALAlertBanner+Private.h"; path = "ALAlertBanner/ALAlertBanner+Private.h"; sourceTree = "<group>"; };
+		2A65FA88549E43E280795217 /* libPods-Postcodr-ALAlertBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Postcodr-ALAlertBanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		329ACFBCA38E4DCAB874E786 /* Pods-Postcodr-ALAlertBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Postcodr-ALAlertBanner.xcconfig"; sourceTree = "<group>"; };
+		385A7CC0F2E64DCDA94018F1 /* Pods-Postcodr-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Postcodr-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CBCB122BC424485967AEB2C /* Pods-Postcodr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Postcodr-dummy.m"; sourceTree = "<group>"; };
+		3E0F6A4C030B4600A6A44012 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4E4B125451AF4D1BA7D57B73 /* bannerAlert@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bannerAlert@2x.png"; path = "ALAlertBanner/Images/bannerAlert@2x.png"; sourceTree = "<group>"; };
+		4EC7C1A8340F4AE593496C0A /* ALAlertBannerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALAlertBannerManager.m; path = ALAlertBanner/ALAlertBannerManager.m; sourceTree = "<group>"; };
+		5E2A4FC2D4A14200A1AE15BF /* libPods-Postcodr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Postcodr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F18058D41E419E80914016 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		65A3FF6517E344F4A164AD07 /* ALAlertBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAlertBanner.h; path = ALAlertBanner/ALAlertBanner.h; sourceTree = "<group>"; };
+		713ED079375A4032AD5B0067 /* Pods-Postcodr-ALAlertBanner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Postcodr-ALAlertBanner-Private.xcconfig"; sourceTree = "<group>"; };
+		808F46AF4E3F43AFBCFD3830 /* bannerNotify.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bannerNotify.png; path = ALAlertBanner/Images/bannerNotify.png; sourceTree = "<group>"; };
+		92FBE779A58C4E8F89C4E713 /* Pods-Postcodr-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Postcodr-resources.sh"; sourceTree = "<group>"; };
+		9A9F962F4A1F4D98BB4D3E61 /* ALAlertBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALAlertBanner.m; path = ALAlertBanner/ALAlertBanner.m; sourceTree = "<group>"; };
+		9CC70031D458453683EC04DF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F38585AF3374F599777F5B5 /* bannerNotify@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bannerNotify@2x.png"; path = "ALAlertBanner/Images/bannerNotify@2x.png"; sourceTree = "<group>"; };
+		9FD2310CF75C4A2CB5925AAD /* bannerFailure@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bannerFailure@2x.png"; path = "ALAlertBanner/Images/bannerFailure@2x.png"; sourceTree = "<group>"; };
+		B10CA0E32E2C452AA8E506B1 /* Pods-Postcodr-ALAlertBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Postcodr-ALAlertBanner-dummy.m"; sourceTree = "<group>"; };
+		B90D4833B4CC44BA878AD38B /* Pods-Postcodr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Postcodr.xcconfig"; sourceTree = "<group>"; };
+		BB2BC21B5CD7450189C9598D /* Pods-Postcodr-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Postcodr-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6EA8E31A3A44C0392BEED8E /* Pods-Postcodr-ALAlertBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Postcodr-ALAlertBanner-prefix.pch"; sourceTree = "<group>"; };
+		C8191D20056B4AACA5C501FF /* bannerSuccess@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bannerSuccess@2x.png"; path = "ALAlertBanner/Images/bannerSuccess@2x.png"; sourceTree = "<group>"; };
+		CB6712E8846E48468C45C0DE /* bannerFailure.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bannerFailure.png; path = ALAlertBanner/Images/bannerFailure.png; sourceTree = "<group>"; };
+		D542A709B82F42CE90857B47 /* bannerAlert.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bannerAlert.png; path = ALAlertBanner/Images/bannerAlert.png; sourceTree = "<group>"; };
+		EA96E59CC472455DA6FA44F4 /* Pods-Postcodr-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Postcodr-environment.h"; sourceTree = "<group>"; };
+		FD9BBF2A228544D09E75F542 /* ALAlertBannerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAlertBannerManager.h; path = ALAlertBanner/ALAlertBannerManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8AACD73CDFE4C9B8EAB559D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78587C858584829B64AB7F1 /* Foundation.framework in Frameworks */,
+				31CE3C8F21CF469281EFF966 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E3C31125234191BA43E17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0F530D7041484FA059A9FE /* Foundation.framework in Frameworks */,
+				307A53FA63D64D128DBF6F5C /* libPods-Postcodr-ALAlertBanner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C9325DC2A24E6C8175063A /* ALAlertBanner */ = {
+			isa = PBXGroup;
+			children = (
+				65A3FF6517E344F4A164AD07 /* ALAlertBanner.h */,
+				9A9F962F4A1F4D98BB4D3E61 /* ALAlertBanner.m */,
+				24F971E766B147B79C329FF2 /* ALAlertBanner+Private.h */,
+				FD9BBF2A228544D09E75F542 /* ALAlertBannerManager.h */,
+				4EC7C1A8340F4AE593496C0A /* ALAlertBannerManager.m */,
+				6E451183BF154894A31B83E9 /* Resources */,
+				A59ACB4D94D445EEB1928367 /* Support Files */,
+			);
+			path = ALAlertBanner;
+			sourceTree = "<group>";
+		};
+		274511E2B4B14ED89EE48B75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBB2F3384848DE92CF44B2 /* Pods-Postcodr */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A5519A4865F4923BFCB0F3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977B257C04D44AF79405A464 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BF60A977D8348FB8B2C6AC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16C9325DC2A24E6C8175063A /* ALAlertBanner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6841BE097AFD4435AF87ED73 = {
+			isa = PBXGroup;
+			children = (
+				9CC70031D458453683EC04DF /* Podfile */,
+				5A5519A4865F4923BFCB0F3D /* Frameworks */,
+				5BF60A977D8348FB8B2C6AC5 /* Pods */,
+				CA3FE73DA356414C8D704926 /* Products */,
+				274511E2B4B14ED89EE48B75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6E451183BF154894A31B83E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D542A709B82F42CE90857B47 /* bannerAlert.png */,
+				4E4B125451AF4D1BA7D57B73 /* bannerAlert@2x.png */,
+				CB6712E8846E48468C45C0DE /* bannerFailure.png */,
+				9FD2310CF75C4A2CB5925AAD /* bannerFailure@2x.png */,
+				808F46AF4E3F43AFBCFD3830 /* bannerNotify.png */,
+				9F38585AF3374F599777F5B5 /* bannerNotify@2x.png */,
+				106CB81D1DFC41ED95672943 /* bannerSuccess.png */,
+				C8191D20056B4AACA5C501FF /* bannerSuccess@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		977B257C04D44AF79405A464 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				64F18058D41E419E80914016 /* Foundation.framework */,
+				3E0F6A4C030B4600A6A44012 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A59ACB4D94D445EEB1928367 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				329ACFBCA38E4DCAB874E786 /* Pods-Postcodr-ALAlertBanner.xcconfig */,
+				713ED079375A4032AD5B0067 /* Pods-Postcodr-ALAlertBanner-Private.xcconfig */,
+				B10CA0E32E2C452AA8E506B1 /* Pods-Postcodr-ALAlertBanner-dummy.m */,
+				C6EA8E31A3A44C0392BEED8E /* Pods-Postcodr-ALAlertBanner-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		CA3FE73DA356414C8D704926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2A4FC2D4A14200A1AE15BF /* libPods-Postcodr.a */,
+				2A65FA88549E43E280795217 /* libPods-Postcodr-ALAlertBanner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEBB2F3384848DE92CF44B2 /* Pods-Postcodr */ = {
+			isa = PBXGroup;
+			children = (
+				B90D4833B4CC44BA878AD38B /* Pods-Postcodr.xcconfig */,
+				BB2BC21B5CD7450189C9598D /* Pods-Postcodr-acknowledgements.markdown */,
+				385A7CC0F2E64DCDA94018F1 /* Pods-Postcodr-acknowledgements.plist */,
+				3CBCB122BC424485967AEB2C /* Pods-Postcodr-dummy.m */,
+				EA96E59CC472455DA6FA44F4 /* Pods-Postcodr-environment.h */,
+				92FBE779A58C4E8F89C4E713 /* Pods-Postcodr-resources.sh */,
+			);
+			name = "Pods-Postcodr";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A7F7801F9E041E3BE4D2A04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A16E5B4BDBA4D0F82B55DA8 /* ALAlertBanner+Private.h in Headers */,
+				8BCFD8C8E2084B13B3AD2009 /* ALAlertBanner.h in Headers */,
+				599E87D6DEC34590A200E56C /* ALAlertBannerManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CD6BD5C862447A58EA6702B /* Pods-Postcodr-ALAlertBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DF5B16FDC54831AEAEB118 /* Build configuration list for PBXNativeTarget "Pods-Postcodr-ALAlertBanner" */;
+			buildPhases = (
+				D53804A53D9043278191499F /* Sources */,
+				B8AACD73CDFE4C9B8EAB559D /* Frameworks */,
+				2A7F7801F9E041E3BE4D2A04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Postcodr-ALAlertBanner";
+			productName = "Pods-Postcodr-ALAlertBanner";
+			productReference = 2A65FA88549E43E280795217 /* libPods-Postcodr-ALAlertBanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6781A0ABA894B5187A1D298 /* Pods-Postcodr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AF516AB4A4467FB50D1242 /* Build configuration list for PBXNativeTarget "Pods-Postcodr" */;
+			buildPhases = (
+				7F786AFF2BCF4C649FE34C66 /* Sources */,
+				E1E3C31125234191BA43E17C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7205058A726C436EA30E71CD /* PBXTargetDependency */,
+			);
+			name = "Pods-Postcodr";
+			productName = "Pods-Postcodr";
+			productReference = 5E2A4FC2D4A14200A1AE15BF /* libPods-Postcodr.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FCE1017952440887A8BE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 1B0DDE33869549E89B438313 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6841BE097AFD4435AF87ED73;
+			productRefGroup = CA3FE73DA356414C8D704926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6781A0ABA894B5187A1D298 /* Pods-Postcodr */,
+				4CD6BD5C862447A58EA6702B /* Pods-Postcodr-ALAlertBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F786AFF2BCF4C649FE34C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E048FB8E03943C0BA8D3E52 /* Pods-Postcodr-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53804A53D9043278191499F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69FC213EDD84C0FB2BEF71D /* ALAlertBanner.m in Sources */,
+				F12AA96360E84A22BECDE734 /* ALAlertBannerManager.m in Sources */,
+				0C4AA004C48A44E098211E80 /* Pods-Postcodr-ALAlertBanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7205058A726C436EA30E71CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CD6BD5C862447A58EA6702B /* Pods-Postcodr-ALAlertBanner */;
+			targetProxy = 6829DA67E3E642418AC5A926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12EF648FA7BF40098CF816E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713ED079375A4032AD5B0067 /* Pods-Postcodr-ALAlertBanner-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Postcodr-ALAlertBanner-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		32F11C0BA6FC4DB0ACD465A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		599CDCD425AE49AF87F4432D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90D4833B4CC44BA878AD38B /* Pods-Postcodr.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79057754375E4BA3BAE637F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A86A9BD9A11E487FACD5874A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90D4833B4CC44BA878AD38B /* Pods-Postcodr.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD9DF3CC19250E6E00108376 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = TestFlight;
+		};
+		BD9DF3CD19250E6E00108376 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90D4833B4CC44BA878AD38B /* Pods-Postcodr.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = TestFlight;
+		};
+		BD9DF3CE19250E6E00108376 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713ED079375A4032AD5B0067 /* Pods-Postcodr-ALAlertBanner-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Postcodr-ALAlertBanner-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = TestFlight;
+		};
+		C938CDB670DB4789AC7CFAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713ED079375A4032AD5B0067 /* Pods-Postcodr-ALAlertBanner-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Postcodr-ALAlertBanner-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0DDE33869549E89B438313 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F11C0BA6FC4DB0ACD465A7 /* Debug */,
+				79057754375E4BA3BAE637F3 /* Release */,
+				BD9DF3CC19250E6E00108376 /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AF516AB4A4467FB50D1242 /* Build configuration list for PBXNativeTarget "Pods-Postcodr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599CDCD425AE49AF87F4432D /* Debug */,
+				A86A9BD9A11E487FACD5874A /* Release */,
+				BD9DF3CD19250E6E00108376 /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DF5B16FDC54831AEAEB118 /* Build configuration list for PBXNativeTarget "Pods-Postcodr-ALAlertBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EF648FA7BF40098CF816E9 /* Debug */,
+				C938CDB670DB4789AC7CFAC5 /* Release */,
+				BD9DF3CE19250E6E00108376 /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7FCE1017952440887A8BE30 /* Project object */;
+}

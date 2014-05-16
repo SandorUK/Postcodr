@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0BE532191AD4E700F6E337 /* PDTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0BE531191AD4E700F6E337 /* PDTransitionManager.m */; };
+		BD0BE534191ADDBC00F6E337 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0BE533191ADDBC00F6E337 /* MapKit.framework */; };
+		BD2FBD6019087A0600D70185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FBD5F19087A0600D70185 /* Foundation.framework */; };
+		BD2FBD6219087A0600D70185 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FBD6119087A0600D70185 /* CoreGraphics.framework */; };
+		BD2FBD6419087A0600D70185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FBD6319087A0600D70185 /* UIKit.framework */; };
+		BD2FBD6A19087A0600D70185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD2FBD6819087A0600D70185 /* InfoPlist.strings */; };
+		BD2FBD6C19087A0600D70185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FBD6B19087A0600D70185 /* main.m */; };
+		BD2FBD7019087A0600D70185 /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FBD6F19087A0600D70185 /* PDAppDelegate.m */; };
+		BD2FBD7319087A0600D70185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2FBD7119087A0600D70185 /* Main.storyboard */; };
+		BD2FBD7619087A0600D70185 /* PDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FBD7519087A0600D70185 /* PDViewController.m */; };
+		BD2FBD7819087A0600D70185 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2FBD7719087A0600D70185 /* Images.xcassets */; };
+		BD2FBD7F19087A0600D70185 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FBD7E19087A0600D70185 /* XCTest.framework */; };
+		BD2FBD8019087A0600D70185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FBD5F19087A0600D70185 /* Foundation.framework */; };
+		BD2FBD8119087A0600D70185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FBD6319087A0600D70185 /* UIKit.framework */; };
+		BD2FBD8919087A0600D70185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD2FBD8719087A0600D70185 /* InfoPlist.strings */; };
+		BD2FBD8B19087A0600D70185 /* PostcodrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FBD8A19087A0600D70185 /* PostcodrTests.m */; };
+		BD2FBD951908863700D70185 /* DIN 1451 Std Engschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD2FBD941908863700D70185 /* DIN 1451 Std Engschrift.ttf */; };
+		BD2FBD9A19088BCA00D70185 /* PDGeoCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2FBD9819088BCA00D70185 /* PDGeoCoder.m */; };
+		BD2FBD9C19088E3500D70185 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FBD9B19088E3500D70185 /* CoreLocation.framework */; };
+		BD2FBD9F190923C400D70185 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2FBD9E190923C400D70185 /* CoreData.framework */; };
+		BD2FBDA31909294E00D70185 /* Postcodr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2FBDA11909294E00D70185 /* Postcodr.xcdatamodeld */; };
+		BD65371319239A5B006B2984 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD65371219239A5A006B2984 /* TestAppDelegate.m */; };
+		BD72BD86190E76C700899845 /* PDHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD72BD85190E76C700899845 /* PDHistoryCell.m */; };
+		BD82F55219093FE600899699 /* PDHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD82F55119093FE600899699 /* PDHistoryViewController.m */; };
+		BD82F5551909418800899699 /* HistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD82F5541909418800899699 /* HistoryItem.m */; };
+		BD857E79191AF65B004FF706 /* PDMapItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD857E78191AF65B004FF706 /* PDMapItem.m */; };
+		BD9DF3B51924FA9300108376 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9DF3B41924FA9300108376 /* AudioToolbox.framework */; };
+		BD9DF3B61924FC2700108376 /* paper.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD9DF3B21924F96500108376 /* paper.wav */; };
+		BD9DF3B81924FDF200108376 /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD9DF3B71924FDF200108376 /* select.wav */; };
+		BD9DF3BA1924FFC300108376 /* spring.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD9DF3B91924FFC300108376 /* spring.wav */; };
+		BD9DF3BC192500F700108376 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD9DF3BB192500F700108376 /* beep.wav */; };
+		BD9DF3BE1925017E00108376 /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD9DF3BD1925017E00108376 /* error.wav */; };
+		BD9DF3C31925059300108376 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9DF3BF1925059300108376 /* libTestFlight.a */; };
+		BD9DF3C61925076500108376 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9DF3C51925076500108376 /* libz.dylib */; };
+		DCF44F998D9B4E67B3E98CCC /* libPods-Postcodr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B2D18DAC7C41A5B272D541 /* libPods-Postcodr.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD2FBD8219087A0600D70185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2FBD5419087A0600D70185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2FBD5B19087A0600D70185;
+			remoteInfo = Postcodr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BA71BE4E426447A926D9ED7 /* Pods-Postcodr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Postcodr.xcconfig"; path = "Pods/Pods-Postcodr.xcconfig"; sourceTree = "<group>"; };
+		74B2D18DAC7C41A5B272D541 /* libPods-Postcodr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Postcodr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0BE530191AD4E700F6E337 /* PDTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDTransitionManager.h; sourceTree = "<group>"; };
+		BD0BE531191AD4E700F6E337 /* PDTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDTransitionManager.m; sourceTree = "<group>"; };
+		BD0BE533191ADDBC00F6E337 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BD2FBD5C19087A0600D70185 /* Postcodr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcodr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2FBD5F19087A0600D70185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD2FBD6119087A0600D70185 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD2FBD6319087A0600D70185 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD2FBD6719087A0600D70185 /* Postcodr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Postcodr-Info.plist"; sourceTree = "<group>"; };
+		BD2FBD6919087A0600D70185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD2FBD6B19087A0600D70185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD2FBD6D19087A0600D70185 /* Postcodr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Postcodr-Prefix.pch"; sourceTree = "<group>"; };
+		BD2FBD6E19087A0600D70185 /* PDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDAppDelegate.h; sourceTree = "<group>"; };
+		BD2FBD6F19087A0600D70185 /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
+		BD2FBD7219087A0600D70185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD2FBD7419087A0600D70185 /* PDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDViewController.h; sourceTree = "<group>"; };
+		BD2FBD7519087A0600D70185 /* PDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDViewController.m; sourceTree = "<group>"; };
+		BD2FBD7719087A0600D70185 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD2FBD7D19087A0600D70185 /* PostcodrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcodrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2FBD7E19087A0600D70185 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BD2FBD8619087A0600D70185 /* PostcodrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PostcodrTests-Info.plist"; sourceTree = "<group>"; };
+		BD2FBD8819087A0600D70185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD2FBD8A19087A0600D70185 /* PostcodrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostcodrTests.m; sourceTree = "<group>"; };
+		BD2FBD941908863700D70185 /* DIN 1451 Std Engschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN 1451 Std Engschrift.ttf"; sourceTree = "<group>"; };
+		BD2FBD9719088BCA00D70185 /* PDGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDGeoCoder.h; sourceTree = "<group>"; };
+		BD2FBD9819088BCA00D70185 /* PDGeoCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDGeoCoder.m; sourceTree = "<group>"; };
+		BD2FBD9919088BCA00D70185 /* PDGeoCodingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDGeoCodingProvider.h; sourceTree = "<group>"; };
+		BD2FBD9B19088E3500D70185 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BD2FBD9E190923C400D70185 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD2FBDA21909294E00D70185 /* Postcodr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Postcodr.xcdatamodel; sourceTree = "<group>"; };
+		BD65371119239A5A006B2984 /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		BD65371219239A5A006B2984 /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		BD72BD84190E76C700899845 /* PDHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDHistoryCell.h; sourceTree = "<group>"; };
+		BD72BD85190E76C700899845 /* PDHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDHistoryCell.m; sourceTree = "<group>"; };
+		BD82F55019093FE600899699 /* PDHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDHistoryViewController.h; sourceTree = "<group>"; };
+		BD82F55119093FE600899699 /* PDHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDHistoryViewController.m; sourceTree = "<group>"; };
+		BD82F5531909418800899699 /* HistoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryItem.h; sourceTree = "<group>"; };
+		BD82F5541909418800899699 /* HistoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryItem.m; sourceTree = "<group>"; };
+		BD857E77191AF65B004FF706 /* PDMapItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDMapItem.h; sourceTree = "<group>"; };
+		BD857E78191AF65B004FF706 /* PDMapItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDMapItem.m; sourceTree = "<group>"; };
+		BD9DF3B21924F96500108376 /* paper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = paper.wav; path = PostcodrTests/paper.wav; sourceTree = SOURCE_ROOT; };
+		BD9DF3B41924FA9300108376 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD9DF3B71924FDF200108376 /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = select.wav; sourceTree = "<group>"; };
+		BD9DF3B91924FFC300108376 /* spring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spring.wav; sourceTree = "<group>"; };
+		BD9DF3BB192500F700108376 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		BD9DF3BD1925017E00108376 /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error.wav; sourceTree = "<group>"; };
+		BD9DF3BF1925059300108376 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		BD9DF3C01925059300108376 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		BD9DF3C11925059300108376 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		BD9DF3C21925059300108376 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		BD9DF3C51925076500108376 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BD9DF3CA19250C1D00108376 /* libPods-Postcodr-ALAlertBanner.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Postcodr-ALAlertBanner.a"; path = "Pods/build/Release-iphoneos/libPods-Postcodr-ALAlertBanner.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2FBD5919087A0600D70185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9DF3C61925076500108376 /* libz.dylib in Frameworks */,
+				BD9DF3C31925059300108376 /* libTestFlight.a in Frameworks */,
+				BD9DF3B51924FA9300108376 /* AudioToolbox.framework in Frameworks */,
+				BD0BE534191ADDBC00F6E337 /* MapKit.framework in Frameworks */,
+				BD2FBD9F190923C400D70185 /* CoreData.framework in Frameworks */,
+				BD2FBD9C19088E3500D70185 /* CoreLocation.framework in Frameworks */,
+				BD2FBD6219087A0600D70185 /* CoreGraphics.framework in Frameworks */,
+				BD2FBD6419087A0600D70185 /* UIKit.framework in Frameworks */,
+				BD2FBD6019087A0600D70185 /* Foundation.framework in Frameworks */,
+				DCF44F998D9B4E67B3E98CCC /* libPods-Postcodr.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FBD7A19087A0600D70185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FBD7F19087A0600D70185 /* XCTest.framework in Frameworks */,
+				BD2FBD8119087A0600D70185 /* UIKit.framework in Frameworks */,
+				BD2FBD8019087A0600D70185 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD2FBD5319087A0600D70185 = {
+			isa = PBXGroup;
+			children = (
+				BD2FBD6519087A0600D70185 /* Postcodr */,
+				BD2FBD8419087A0600D70185 /* PostcodrTests */,
+				BD2FBD5E19087A0600D70185 /* Frameworks */,
+				BD2FBD5D19087A0600D70185 /* Products */,
+				2BA71BE4E426447A926D9ED7 /* Pods-Postcodr.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2FBD5D19087A0600D70185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FBD5C19087A0600D70185 /* Postcodr.app */,
+				BD2FBD7D19087A0600D70185 /* PostcodrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2FBD5E19087A0600D70185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9DF3CA19250C1D00108376 /* libPods-Postcodr-ALAlertBanner.a */,
+				BD9DF3C51925076500108376 /* libz.dylib */,
+				BD9DF3B41924FA9300108376 /* AudioToolbox.framework */,
+				BD0BE533191ADDBC00F6E337 /* MapKit.framework */,
+				BD2FBD9E190923C400D70185 /* CoreData.framework */,
+				BD2FBD9B19088E3500D70185 /* CoreLocation.framework */,
+				BD2FBD5F19087A0600D70185 /* Foundation.framework */,
+				BD2FBD6119087A0600D70185 /* CoreGraphics.framework */,
+				BD2FBD6319087A0600D70185 /* UIKit.framework */,
+				BD2FBD7E19087A0600D70185 /* XCTest.framework */,
+				74B2D18DAC7C41A5B272D541 /* libPods-Postcodr.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2FBD6519087A0600D70185 /* Postcodr */ = {
+			isa = PBXGroup;
+			children = (
+				BD72BD83190E769F00899845 /* HistoryCell */,
+				BD2FBDA01909293400D70185 /* Models */,
+				BD2FBD9D19088E6E00D70185 /* Controllers */,
+				BD2FBD9619088BA700D70185 /* GeoCoder */,
+				BD2FBD6E19087A0600D70185 /* PDAppDelegate.h */,
+				BD2FBD6F19087A0600D70185 /* PDAppDelegate.m */,
+				BD2FBD7119087A0600D70185 /* Main.storyboard */,
+				BD2FBD7719087A0600D70185 /* Images.xcassets */,
+				BD2FBD6619087A0600D70185 /* Supporting Files */,
+			);
+			path = Postcodr;
+			sourceTree = "<group>";
+		};
+		BD2FBD6619087A0600D70185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD9DF3C41925059600108376 /* TestFlight */,
+				BD9DF3BD1925017E00108376 /* error.wav */,
+				BD9DF3BB192500F700108376 /* beep.wav */,
+				BD9DF3B91924FFC300108376 /* spring.wav */,
+				BD9DF3B71924FDF200108376 /* select.wav */,
+				BD9DF3B21924F96500108376 /* paper.wav */,
+				BD2FBD941908863700D70185 /* DIN 1451 Std Engschrift.ttf */,
+				BD2FBD6719087A0600D70185 /* Postcodr-Info.plist */,
+				BD2FBD6819087A0600D70185 /* InfoPlist.strings */,
+				BD2FBD6B19087A0600D70185 /* main.m */,
+				BD2FBD6D19087A0600D70185 /* Postcodr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD2FBD8419087A0600D70185 /* PostcodrTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FBD8A19087A0600D70185 /* PostcodrTests.m */,
+				BD2FBD8519087A0600D70185 /* Supporting Files */,
+				BD65371119239A5A006B2984 /* TestAppDelegate.h */,
+				BD65371219239A5A006B2984 /* TestAppDelegate.m */,
+			);
+			path = PostcodrTests;
+			sourceTree = "<group>";
+		};
+		BD2FBD8519087A0600D70185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FBD8619087A0600D70185 /* PostcodrTests-Info.plist */,
+				BD2FBD8719087A0600D70185 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD2FBD9619088BA700D70185 /* GeoCoder */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FBD9719088BCA00D70185 /* PDGeoCoder.h */,
+				BD2FBD9819088BCA00D70185 /* PDGeoCoder.m */,
+				BD2FBD9919088BCA00D70185 /* PDGeoCodingProvider.h */,
+			);
+			name = GeoCoder;
+			sourceTree = "<group>";
+		};
+		BD2FBD9D19088E6E00D70185 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FBD7419087A0600D70185 /* PDViewController.h */,
+				BD2FBD7519087A0600D70185 /* PDViewController.m */,
+				BD82F55019093FE600899699 /* PDHistoryViewController.h */,
+				BD82F55119093FE600899699 /* PDHistoryViewController.m */,
+				BD0BE530191AD4E700F6E337 /* PDTransitionManager.h */,
+				BD0BE531191AD4E700F6E337 /* PDTransitionManager.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BD2FBDA01909293400D70185 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FBDA11909294E00D70185 /* Postcodr.xcdatamodeld */,
+				BD82F5531909418800899699 /* HistoryItem.h */,
+				BD82F5541909418800899699 /* HistoryItem.m */,
+				BD857E77191AF65B004FF706 /* PDMapItem.h */,
+				BD857E78191AF65B004FF706 /* PDMapItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BD72BD83190E769F00899845 /* HistoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				BD72BD84190E76C700899845 /* PDHistoryCell.h */,
+				BD72BD85190E76C700899845 /* PDHistoryCell.m */,
+			);
+			name = HistoryCell;
+			sourceTree = "<group>";
+		};
+		BD9DF3C41925059600108376 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				BD9DF3BF1925059300108376 /* libTestFlight.a */,
+				BD9DF3C01925059300108376 /* TestFlight.h */,
+				BD9DF3C11925059300108376 /* TestFlight+AsyncLogging.h */,
+				BD9DF3C21925059300108376 /* TestFlight+ManualSessions.h */,
+			);
+			name = TestFlight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2FBD5B19087A0600D70185 /* Postcodr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2FBD8E19087A0600D70185 /* Build configuration list for PBXNativeTarget "Postcodr" */;
+			buildPhases = (
+				0B1EF6BD96054B8085599991 /* Check Pods Manifest.lock */,
+				BD2FBD5819087A0600D70185 /* Sources */,
+				BD2FBD5919087A0600D70185 /* Frameworks */,
+				BD2FBD5A19087A0600D70185 /* Resources */,
+				170BDD97866D4693A417FC55 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Postcodr;
+			productName = Postcodr;
+			productReference = BD2FBD5C19087A0600D70185 /* Postcodr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD2FBD7C19087A0600D70185 /* PostcodrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2FBD9119087A0600D70185 /* Build configuration list for PBXNativeTarget "PostcodrTests" */;
+			buildPhases = (
+				BD2FBD7919087A0600D70185 /* Sources */,
+				BD2FBD7A19087A0600D70185 /* Frameworks */,
+				BD2FBD7B19087A0600D70185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2FBD8319087A0600D70185 /* PBXTargetDependency */,
+			);
+			name = PostcodrTests;
+			productName = PostcodrTests;
+			productReference = BD2FBD7D19087A0600D70185 /* PostcodrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD2FBD5419087A0600D70185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sandor Kolotenko";
+				TargetAttributes = {
+					BD2FBD5B19087A0600D70185 = {
+						DevelopmentTeam = AGVK2HN9ZJ;
+					};
+					BD2FBD7C19087A0600D70185 = {
+						TestTargetID = BD2FBD5B19087A0600D70185;
+					};
+				};
+			};
+			buildConfigurationList = BD2FBD5719087A0600D70185 /* Build configuration list for PBXProject "Postcodr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD2FBD5319087A0600D70185;
+			productRefGroup = BD2FBD5D19087A0600D70185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2FBD5B19087A0600D70185 /* Postcodr */,
+				BD2FBD7C19087A0600D70185 /* PostcodrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2FBD5A19087A0600D70185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9DF3BC192500F700108376 /* beep.wav in Resources */,
+				BD2FBD7819087A0600D70185 /* Images.xcassets in Resources */,
+				BD9DF3BA1924FFC300108376 /* spring.wav in Resources */,
+				BD2FBD951908863700D70185 /* DIN 1451 Std Engschrift.ttf in Resources */,
+				BD9DF3B61924FC2700108376 /* paper.wav in Resources */,
+				BD9DF3BE1925017E00108376 /* error.wav in Resources */,
+				BD2FBD6A19087A0600D70185 /* InfoPlist.strings in Resources */,
+				BD9DF3B81924FDF200108376 /* select.wav in Resources */,
+				BD2FBD7319087A0600D70185 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FBD7B19087A0600D70185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2FBD8919087A0600D70185 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B1EF6BD96054B8085599991 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		170BDD97866D4693A417FC55 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Postcodr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2FBD5819087A0600D70185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD72BD86190E76C700899845 /* PDHistoryCell.m in Sources */,
+				BD82F5551909418800899699 /* HistoryItem.m in Sources */,
+				BD2FBD9A19088BCA00D70185 /* PDGeoCoder.m in Sources */,
+				BD857E79191AF65B004FF706 /* PDMapItem.m in Sources */,
+				BD82F55219093FE600899699 /* PDHistoryViewController.m in Sources */,
+				BD2FBD7019087A0600D70185 /* PDAppDelegate.m in Sources */,
+				BD0BE532191AD4E700F6E337 /* PDTransitionManager.m in Sources */,
+				BD2FBDA31909294E00D70185 /* Postcodr.xcdatamodeld in Sources */,
+				BD2FBD7619087A0600D70185 /* PDViewController.m in Sources */,
+				BD2FBD6C19087A0600D70185 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2FBD7919087A0600D70185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD65371319239A5B006B2984 /* TestAppDelegate.m in Sources */,
+				BD2FBD8B19087A0600D70185 /* PostcodrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD2FBD8319087A0600D70185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2FBD5B19087A0600D70185 /* Postcodr */;
+			targetProxy = BD2FBD8219087A0600D70185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD2FBD6819087A0600D70185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2FBD6919087A0600D70185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD2FBD7119087A0600D70185 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2FBD7219087A0600D70185 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD2FBD8719087A0600D70185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2FBD8819087A0600D70185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD2FBD8C19087A0600D70185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD2FBD8D19087A0600D70185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2FBD8F19087A0600D70185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA71BE4E426447A926D9ED7 /* Pods-Postcodr.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EXCLUDED_SOURCE_FILE_NAMES = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Postcodr/Postcodr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TESTFLIGHT=1",
+				);
+				INFOPLIST_FILE = "Postcodr/Postcodr-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/HDD/Projects/Postcodr/Postcodr/Postcodr,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD2FBD9019087A0600D70185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA71BE4E426447A926D9ED7 /* Pods-Postcodr.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sandor Kolotenko (AGVK2HN9ZJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sandor Kolotenko (AGVK2HN9ZJ)";
+				EXCLUDED_SOURCE_FILE_NAMES = libTestFlight.a;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Postcodr/Postcodr-Prefix.pch";
+				INFOPLIST_FILE = "Postcodr/Postcodr-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/HDD/Projects/Postcodr/Postcodr/Postcodr,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD2FBD9219087A0600D70185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Postcodr.app/Postcodr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Postcodr/Postcodr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PostcodrTests/PostcodrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BD2FBD9319087A0600D70185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Postcodr.app/Postcodr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Postcodr/Postcodr-Prefix.pch";
+				INFOPLIST_FILE = "PostcodrTests/PostcodrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		BD9DF3C71925099A00108376 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = TestFlight;
+		};
+		BD9DF3C81925099A00108376 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA71BE4E426447A926D9ED7 /* Pods-Postcodr.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sandor Kolotenko (AGVK2HN9ZJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sandor Kolotenko (AGVK2HN9ZJ)";
+				EXCLUDED_SOURCE_FILE_NAMES = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Postcodr/Postcodr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TESTFLIGHT=1",
+				);
+				INFOPLIST_FILE = "Postcodr/Postcodr-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/HDD/Projects/Postcodr/Postcodr/Postcodr,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = TestFlight;
+		};
+		BD9DF3C91925099C00108376 /* TestFlight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Postcodr.app/Postcodr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Postcodr/Postcodr-Prefix.pch";
+				INFOPLIST_FILE = "PostcodrTests/PostcodrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = TestFlight;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2FBD5719087A0600D70185 /* Build configuration list for PBXProject "Postcodr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2FBD8C19087A0600D70185 /* Debug */,
+				BD2FBD8D19087A0600D70185 /* Release */,
+				BD9DF3C71925099A00108376 /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2FBD8E19087A0600D70185 /* Build configuration list for PBXNativeTarget "Postcodr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2FBD8F19087A0600D70185 /* Debug */,
+				BD2FBD9019087A0600D70185 /* Release */,
+				BD9DF3C81925099A00108376 /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2FBD9119087A0600D70185 /* Build configuration list for PBXNativeTarget "PostcodrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2FBD9219087A0600D70185 /* Debug */,
+				BD2FBD9319087A0600D70185 /* Release */,
+				BD9DF3C91925099C00108376 /* TestFlight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD2FBDA11909294E00D70185 /* Postcodr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD2FBDA21909294E00D70185 /* Postcodr.xcdatamodel */,
+			);
+			currentVersion = BD2FBDA21909294E00D70185 /* Postcodr.xcdatamodel */;
+			path = Postcodr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD2FBD5419087A0600D70185 /* Project object */;
+}
