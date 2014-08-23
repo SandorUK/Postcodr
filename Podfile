@@ -2,7 +2,8 @@
 # platform :ios, "6.0"
 
 target "Postcodr" do
-pod 'ALAlertBanner', '~>0.3.1'
+pod 'TSVReaderWriter', '~> 0.0'
+pod 'SKNotification', '~> 1.3'
 end
 
 target "PostcodrTests" do

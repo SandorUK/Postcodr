@@ -582,7 +582,7 @@
 				INFOPLIST_FILE = "Postcodr/Postcodr-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Volumes/HDD/Projects/Postcodr/Postcodr/Postcodr,
+					"$(SRCROOT)/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -605,7 +605,7 @@
 				INFOPLIST_FILE = "Postcodr/Postcodr-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Volumes/HDD/Projects/Postcodr/Postcodr/Postcodr,
+					"$(SRCROOT)/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -708,7 +708,7 @@
 				INFOPLIST_FILE = "Postcodr/Postcodr-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Volumes/HDD/Projects/Postcodr/Postcodr/Postcodr,
+					"$(SRCROOT)/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

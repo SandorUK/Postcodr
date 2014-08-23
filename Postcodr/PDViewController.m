@@ -12,7 +12,7 @@
 #import "PDAppDelegate.h"
 #import "PDTransitionManager.h"
 #import "PDHistoryViewController.h"
-#import <ALAlertBanner.h>
+#import <SKNotification.h>
 #import "TestFlight.h"
 
 @interface PDViewController ()
@@ -115,11 +115,11 @@
                 }
             }
             else{
-                ALAlertBanner* errorBanner = [ALAlertBanner alertBannerForView:self_.view
-                                                                         style:ALAlertBannerStyleFailure
-                                                                      position:ALAlertBannerPositionTop
-                                                                         title:error.localizedDescription];
-                [errorBanner show];
+
+                [[SKNotification centre] show:SKNFailure withMessage:error.localizedDescription in:self_ withCompletion:^{
+                    
+                }];
+                
                 [self_ setLabelsForPostcode:NSLocalizedString(@"LOST", @"LOST")
                                  andMessage:NSLocalizedString(@"An island somewhere in the Pacific Ocean", @"An island somewhere in the Pacific Ocean")];
             }
@@ -228,17 +228,12 @@
     UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
     [pasteboard setString:self.lblPostcode.text];
     
-    ALAlertBanner *banner = [ALAlertBanner alertBannerForView:self.view
-                                style:ALAlertBannerStyleSuccess
-                             position:ALAlertBannerPositionTop
-                                title:NSLocalizedString(@"Postcode copied to pasteboard",
-                                                            @"Postcode copied to pasteboard")];
-    
-    [banner show];
+    [[SKNotification centre] show:SKNSuccess withLocalizedKey:@"Postcode copied to pasteboard" in:self withCompletion:^{
+        
+    }];
     
     // Play sound
     [((PDAppDelegate*)[UIApplication sharedApplication].delegate) playSoundWithFile:@"spring.wav"];
-    
 }
 
 #pragma mark History Items

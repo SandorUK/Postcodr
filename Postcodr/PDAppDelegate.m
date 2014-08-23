@@ -9,6 +9,7 @@
 #import "PDAppDelegate.h"
 #import <CoreData/CoreData.h>
 #import <AVFoundation/AVFoundation.h>
+#import <SKNotification.h>
 #import "TestFlight.h"
 
 @implementation PDAppDelegate
@@ -31,7 +32,24 @@
     [attributes setValue:[UIFont fontWithName:kGlobalFontName size:14.0f] forKey:NSFontAttributeName];
     [[UIBarButtonItem appearance] setTitleTextAttributes:attributes forState:UIControlStateNormal];
     
+    [[SKNotification centre] setColorFailure:colorSpecialYellow];
+    [[SKNotification centre] setColorSuccess:colorSpecialYellow];
+    
+    [[SKNotification centre] setColorIconTint:colorRAL3002];
+    [[SKNotification centre] setColorizeIcon:YES];
+    
+    [[SKNotification centre] setImageFailure:[UIImage imageNamed:@"failure"]];
+    [[SKNotification centre] setImageSuccess:[UIImage imageNamed:@"success"]];
+    [[SKNotification centre] setMessageFont:[UIFont fontWithName:kGlobalFontName size:19.0f]];
+    [[SKNotification centre] setUseCustomFont:YES];
+    
     return YES;
+}
+
+- (UIImage *)colorizeImage:(UIImage *)image{
+    UIImage *colorizedImage = [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    
+    return colorizedImage;
 }
 
 - (BOOL)isFirstLaunch{

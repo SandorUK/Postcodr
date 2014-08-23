@@ -12,7 +12,7 @@
 #import "PDHistoryCell.h"
 #import "PDAppDelegate.h"
 #import "PDMapItem.h"
-#import <ALAlertBanner.h>
+#import <SKNotification.h>
 #import "TestFlight.h"
 
 @interface PDHistoryViewController ()
@@ -210,10 +210,10 @@ static NSString *CellIdentifier = @"HistoryCell";
 }
 
 - (void)mapViewDidFailLoadingMap:(MKMapView *)mapView withError:(NSError *)error{
-    [ALAlertBanner alertBannerForView:self.view
-                                style:ALAlertBannerStyleFailure
-                             position:ALAlertBannerPositionTop
-                                title:NSLocalizedString(@"Oops. Map failure.", @"Oops. Map failure.")];
+    
+    [[SKNotification centre] show:SKNFailure withLocalizedKey:@"Oops. Map failure." in:self withCompletion:^{
+        
+    }];
 }
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation

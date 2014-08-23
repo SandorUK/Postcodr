@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>90014424-67CA-42C9-A6CE-2719DF87536A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Postcodr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A18896B-3B67-4DBB-A6EE-E464B7F3FC82</key>
+		<string>https://github.com/SandorUK/Postcodr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Postcodr.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A18896B-3B67-4DBB-A6EE-E464B7F3FC82</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SandorUK/Postcodr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A18896B-3B67-4DBB-A6EE-E464B7F3FC82</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A18896B-3B67-4DBB-A6EE-E464B7F3FC82</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Postcodr</string>
+		</dict>
+	</array>
+</dict>
+</plist>

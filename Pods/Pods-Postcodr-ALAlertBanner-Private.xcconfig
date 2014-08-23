@@ -1,5 +1,5 @@
 #include "Pods-Postcodr-ALAlertBanner.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/ALAlertBanner" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ALAlertBanner"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/ALAlertBanner" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ALAlertBanner" "${PODS_ROOT}/Headers/SKNotification" "${PODS_ROOT}/Headers/TSVReaderWriter"
 OTHER_LDFLAGS = -ObjC ${PODS_POSTCODR_ALALERTBANNER_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}
